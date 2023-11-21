@@ -1,0 +1,25 @@
+{
+  "dependencies": {
+    "browser-sync": "^2.29.3",
+    "concurrently": "^8.2.2",
+    "lint": "^0.8.19",
+    "sass": "^1.69.5",
+    "stylelint": "^15.11.0"
+  },
+  "scripts": {
+    "dev": "browser-sync start --server --files main.js **/*.js styles.css index.html",
+    "sass": "sass --watch scss:css",
+    "copy:html": "cpy ./*.html ./build/",
+    "copy:js": "cpy ./*.js ./build/",
+    "build": "concurrently npm:copy:*"
+
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.29.3",
+    "concurrently": "^8.2.1",
+    "cpy-cli": "^5.0.0"
+  }
+}

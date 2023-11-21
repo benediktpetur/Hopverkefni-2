@@ -1,0 +1,46 @@
+/* Stillingar */
+  
+:root {
+    /* Grunn bilið okkar er 1rem == 16px */
+    --font-base-body-px: 16px;
+    --spacing: 1rem;
+  
+    /* Bil á milli „stærri“ eininga (header, efnisbox, footer) */
+    --vertical-space: calc(var(--gutter));
+  
+    /* Hámarksbreidd á efni */
+    --max-width: 1400px;
+    --width-offset: calc(100% - (2 * var(--offset)));
+    --max-mobile-width: 500px;
+    
+    /* Border breiddir */
+    --border-small: 1px;
+    --border-large: 8px;
+    --border-radius: 6px;
+  
+    /* Litir */
+    --color-border-button: #6F4E37;
+    --color-latte: #E1CEC2;
+    --color-chocolate: #3C2A1E;
+    --color-black: #000000;
+    --color-white: #FFFFFF;
+    --color-takki: ;
+
+    /* Grid stillingar */
+    --columns: 12;
+    --gutter: 30px;
+    --offset: 20px;
+  
+    /* Letur stillingar */
+    --font-base-size: 1rem;
+    --font-large-body: 20px;
+    --font-main-heading: 36px;
+    --font-secondary-heading: 2rem;
+    --font-family-base: 'Noto Sans Display', Helvetica, Arial, sans-serif;
+    --font-family-heading: 'Lora', Georgia, serif;
+  
+    /* Transitions */
+    --transition-time-short: 300ms;
+    --transition-time-long: 600ms;
+    --transition-timing-function: ease-in-out;
+  }
