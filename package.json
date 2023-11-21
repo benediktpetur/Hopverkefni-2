@@ -12,14 +12,21 @@
     "copy:html": "cpy ./*.html ./build/",
     "copy:js": "cpy ./*.js ./build/",
     "build": "concurrently npm:copy:*"
-
   },
   "keywords": [],
-  "author": "",
+  "author": "Benedikt Pétur Sigurðsson",
   "license": "ISC",
   "devDependencies": {
     "browser-sync": "^2.29.3",
     "concurrently": "^8.2.1",
     "cpy-cli": "^5.0.0"
+  },
+  "name": "hopverkefni-2",
+  "description": "Hópverkefni-2\r Uppsett sölusíða",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "github.com/benediktpetur/Hopverkefni-2"
   }
 }
