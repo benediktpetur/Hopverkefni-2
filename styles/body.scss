@@ -1,0 +1,66 @@
+//>Kassar
+h1{
+    
+}
+.wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    margin: 1rem;
+}
+.wrapper .box{
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 1rem;
+
+}
+.wrapper .box .boxes{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    margin-top: 1rem;
+
+
+
+}
+.wrapper .box .boxes .item1{
+    display: grid;
+    justify-items: start;
+    font-weight: bold;
+
+}
+.wrapper .box .boxes .item2{
+    display: grid;
+    justify-items: end;
+    font-weight: bold;
+    font-size: 120%;
+}
+.wrapper .box .boxes .item3{
+    display: grid;
+    justify-items: start;
+}
+//> skoða vöruflokka
+.wrapper1{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+
+}
+.wrapper1 .box1{
+    display: grid;
+    text-decoration: none;
+    border-radius: 5%;
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+    margin: 15%;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+}
+
+.wrapper1 .box1 a{
+    text-decoration: none;
+    font-size: 1.5rem;
+}

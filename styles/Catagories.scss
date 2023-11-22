@@ -1,0 +1,19 @@
+.next{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    
+}
+.next a{
+    text-decoration: none;
+    font-weight: bold;
+    background-color: #241e1e;
+    color: white;
+    border-radius: 5%;
+    padding: 10px;
+}
+.next p{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}

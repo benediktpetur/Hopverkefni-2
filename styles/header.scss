@@ -1,7 +1,31 @@
-.toppur .toppur-innihald {
+.header1{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
+    margin: 1rem;
+    align-content: center;
+
+
 }
-.toppur .toppur-innihald .toppur-innihald2 {
-    
+.header{
+    display: grid;
+    align-items: center;
+    background-color: #241e1e;
+    color: white;
+}
+.header1 .header-link{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    align-items: right;
+    justify-content: end;
+    justify-items: end;
+    grid-column-start: 3;
+}
+.header1 .header-texti{
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+}
+.header .header1 .header-link a{
+    text-decoration: none;
 }

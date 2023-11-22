@@ -1,0 +1,35 @@
+.section1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+  
+}
+.section1 .box{
+    display: grid;
+    grid-template-columns: 2fr;
+    grid-template-rows: 2fr;
+  
+    justify-content: space-between;
+    padding: 1rem;
+}
+.section1 .box4{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-row:2;
+    max-height: 10rem;
+
+}
+.section1 .box3{
+    display: grid;
+    
+    grid-template-rows: 1fr 1fr ;
+    grid-template-columns: 1fr 1fr;
+    max-height: 10rem;
+}
+.box .boxes1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
