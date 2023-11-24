@@ -1,0 +1,24 @@
+.vara .vorulysing{
+    display: grid;
+
+}
+.vara{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 5%;
+    
+}
+.vara .vorulysing p{
+    padding: 2.5%;
+}
+.vara .vorulysing h2{
+    padding:2.5%;
+}
+.vara img{
+    max-width: 100%;
+    width: 100%;
+    max-height: 90%;
+    height: 100%;
+    justify-content: center;
+    align-content: center;
+}

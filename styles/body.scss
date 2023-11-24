@@ -2,6 +2,12 @@
 h1{
     
 }
+
+.wrapper .box img{
+    max-width: 10%;
+    max-height: 10%;
+
+}
 .wrapper{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -10,19 +16,20 @@ h1{
 }
 .wrapper .box{
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
     margin: 1rem;
+    max-width: 50%;
 
 }
+
 .wrapper .box .boxes{
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     margin-top: 1rem;
 
-
-
 }
+
 .wrapper .box .boxes .item1{
     display: grid;
     justify-items: start;
@@ -56,6 +63,7 @@ h1{
     height: 115%;
     border-radius: 2%;
 }
+
 .wrapper1 .box1 button{
     display: grid;
     text-decoration: none;
