@@ -47,20 +47,28 @@ h1{
 
 }
 .wrapper1 .box1{
+
+}
+.wrapper button{
+    background-color: #241e1e;
+    color:white;
+    width: 60%;
+    height: 115%;
+    border-radius: 2%;
+}
+.wrapper1 .box1 button{
     display: grid;
     text-decoration: none;
-    border-radius: 5%;
+    font-size: 24px;
+    padding: 5%;
+    min-width: 30%;
+    text-decoration: none;
+    background-color: white;
     border-color: black;
     border-width: 1px;
     border-style: solid;
-    margin: 15%;
+    margin: 5%;
+    width: 80%;
+    height: 80%;
     align-content: center;
-    align-items: center;
-    justify-content: center;
-    justify-items: center;
-}
-
-.wrapper1 .box1 a{
-    text-decoration: none;
-    font-size: 1.5rem;
 }
