@@ -11,3 +11,6 @@ npm lint
 stylelint
 sass
 dev
+
+Sett upp þannig að síðurnar eru leitanlegar
+sett upp þannig categorys eru leitanlegar

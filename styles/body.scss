@@ -1,60 +1,8 @@
-//>Kassar
-h1{
-    
-}
 
-.wrapper .box img{
-    max-width: 10%;
-    max-height: 10%;
-
-}
-.wrapper{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    margin: 1rem;
-}
-.wrapper .box{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    margin: 1rem;
-    max-width: 50%;
-
-}
-
-.wrapper .box .boxes{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    margin-top: 1rem;
-
-}
-
-.wrapper .box .boxes .item1{
-    display: grid;
-    justify-items: start;
-    font-weight: bold;
-
-}
-.wrapper .box .boxes .item2{
-    display: grid;
-    justify-items: end;
-    font-weight: bold;
-    font-size: 120%;
-}
-.wrapper .box .boxes .item3{
-    display: grid;
-    justify-items: start;
-}
-//> skoða vöruflokka
 .wrapper1{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr;
-
-}
-.wrapper1 .box1{
-
 }
 .wrapper button{
     background-color: #241e1e;
@@ -79,4 +27,40 @@ h1{
     width: 80%;
     height: 80%;
     align-content: center;
+}
+.wrapper .box img{
+    max-width: 500px;
+    max-height: 500px;
+    width: 100%;
+    height: 100%;
+}
+.wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 2%;
+
+}
+.wrapper .box{
+    display: grid;
+    grid-template-rows: 8fr 1fr;
+    margin: 2%;
+}
+.wrapper .box .boxes{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+}
+.wrapper .box .boxes .item1{
+    display: grid;
+    font-weight: bold;
+    text-decoration: none;
+}
+.wrapper .box .boxes .item2{
+    display: grid;
+    font-weight: bolder;
+    font-size: 110%;
+    justify-items: end;
+}
+.wrapper .box .boxes .item3{
+    
 }
