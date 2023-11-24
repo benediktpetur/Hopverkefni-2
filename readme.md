@@ -3,6 +3,8 @@ Uppsett sölusíða
 
 Benedikt Pétur Sigurðsson
 bps6@hi.is
+Netlify - https://beautiful-semifreddo-b4328f.netlify.app/
+Github - https://github.com/benediktpetur/Hopverkefni-2
 
 
 sett upp 
